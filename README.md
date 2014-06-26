@@ -22,7 +22,7 @@ b = oscillate(b);
 b.play();
 ```
 
-This pretty much take over your terminal
+This will pretty much take over your terminal
 
 ## options
 
@@ -36,7 +36,7 @@ b = oscillate(b, {
     windowSize: 1000     // window size: 
                          // the graphs are composed of a sliding window of 
                          // time series values.
-                         // e.g. if we got values 1, 2, 3, 4, 5, 6, 7
+                         // e.g. if we have values 1, 2, 3, 4, 5, 6, 7
                          //      then with a window of size two, the graph
                          //      would display the following two points at
                          //      each refresh:
