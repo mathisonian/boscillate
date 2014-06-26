@@ -1,7 +1,7 @@
 boscillate
 ==========
 
-Sound wave graph for baudio in your terminal
+Sound wave graph for [baudio](https://github.com/substack/baudio) in your terminal
 
 ![example1](http://i.imgur.com/iURwnlB.png)
 ![example2](http://i.imgur.com/TCPE5wr.png)
