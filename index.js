@@ -1,6 +1,7 @@
 // 
 'use strict';
 var Canvas = require('drawille');
+var Transform = require('stream').Transform;
 var _ = require('lodash');
 require('colors');
 
@@ -37,7 +38,7 @@ var oscillate = module.exports =  function(b, options) {
     // pipe from baudio -> boscillate -> sox
     //
     //
-    var Transform = require('stream').Transform;
+
     var ts = new Transform();
     var v = 0;
     var windowSize = options.windowSize;
