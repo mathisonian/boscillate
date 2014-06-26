@@ -6,6 +6,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "keywords": [
+    "boscillate", "baudio", "audio", "oscillate", "sound", "sound wave", "wave",
+    "ascii", "graph", "oscillator"
+  ],
   "author": "Matthew Conlen <code@mathisonian.com> (http://mathisonian.com/)",
   "license": "MIT",
   "dependencies": {
