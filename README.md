@@ -52,6 +52,7 @@ b = oscillate(b, {
                          // the past on the audio wave
 
 })
+```
 
 ## license
 
