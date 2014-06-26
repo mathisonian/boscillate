@@ -44,11 +44,13 @@ var oscillate = module.exports =  function(b, options) {
     var windowSize = options.windowSize;
     var points = Array.apply(null, new Array(windowSize)).map(Number.prototype.valueOf,0);
     ts._transform = function (chunk, encoding, done) {
-        for (var i = 0; i < chunk.length; i += 2) {
-            v++;
-            var n = chunk.readInt16LE(i);
-            points[v % windowSize] = n;
-        }
+        setTimeout(function() {
+            for (var i = 0; i < chunk.length; i += 2) {
+                v++;
+                var n = chunk.readInt16LE(i);
+                points[v % windowSize] = n;
+            }    
+        }, 1)
         this.push(chunk);
         done();
     };
