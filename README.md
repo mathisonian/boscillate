@@ -5,8 +5,8 @@ Sound wave graph for [baudio](https://github.com/substack/baudio) in your termin
 
 ![example1](http://i.imgur.com/iURwnlB.png)
 ![example2](http://i.imgur.com/TCPE5wr.png)
-![example3](http://i.imgur.com/Svi8HiJ.png)
-![example4](http://i.imgur.com/2jt3rgq.png)
+
+![example3](http://i.imgur.com/qJKObZm.gif)
 
 ## usage
 
@@ -57,6 +57,12 @@ b = oscillate(b, {
 
 })
 ```
+
+## more examples 
+
+
+![example4](http://i.imgur.com/Svi8HiJ.png)
+![example5](http://i.imgur.com/2jt3rgq.png)
 
 ## license
 
