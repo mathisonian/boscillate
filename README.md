@@ -3,6 +3,10 @@ boscillate
 
 Sound wave graph for baudio in your terminal
 
+![example1](http://i.imgur.com/iURwnlB.png)
+![example2](http://i.imgur.com/TCPE5wr.png)
+![example3](http://i.imgur.com/Svi8HiJ.png)
+![example4](http://i.imgur.com/2jt3rgq.png)
 
 ## usage
 
