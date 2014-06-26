@@ -7,5 +7,10 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Matthew Conlen <code@mathisonian.com> (http://mathisonian.com/)",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "colors": "~0.6.2",
+    "drawille": "~0.1.1",
+    "lodash": "~2.4.1"
+  }
 }
