@@ -1,0 +1,11 @@
+{
+  "name": "boscillate",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Matthew Conlen <code@mathisonian.com> (http://mathisonian.com/)",
+  "license": "MIT"
+}
